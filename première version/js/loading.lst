@@ -1,0 +1,12 @@
+vendor/jquery/dist/jquery.min.js
+cookies-warning.min.js
+handlebars.min.js
+typeahead.bundle.min.js
+modules/searchform.js
+modules/tab-nav.js
+vendor/hammerjs/hammer.min.js
+modules/sial-commons.js
+modules/ac-offcanvas.js
+modules/sial-navigation.js
+modules/swiper.js
+modules/paginate.js
