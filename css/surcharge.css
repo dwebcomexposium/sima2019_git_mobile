@@ -3051,8 +3051,10 @@ ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-376065 {
 .temoignages-visiteurs.list-articles .slider-content .slider-item .la-item-img {
     border-radius: 100px;
     margin-right: 0;
-    max-width: 13rem;
-    max-height: 13rem
+    max-width: 11rem;
+    max-height: 11rem;
+    padding: 2.5rem;
+    background-color: white
 }
 
 .temoignages-exposants.list-articles .slider-content .slider-item .la-item-content,
