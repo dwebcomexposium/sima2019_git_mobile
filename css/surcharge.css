@@ -8737,3 +8737,32 @@ h1.main-title {
 .content384937 .site-wrapper .partner .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-title {
     display: none
 }
+
+.mod-catal .catal-ex-item.is-premium {
+    border-top: 0 none;
+    border-right: 0 none;
+    border-left: 0 none;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: transparent;
+}
+
+.mod-catal .catal-ex-item.is-premium::after {
+    display:none;
+}
+
+.mod-catal .catal-ex-item.is-premium p {
+    font-family: roboto-condensed-regular,Helvetica,Arial,sans-serif;
+}
+
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-stand-title {
+    font-family: Gudea,Helvetica,Arial,sans-serif;
+}
+
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-stand-item {
+    color: #6e6e6e;
+    font-family: roboto-condensed-regular,Helvetica,Arial,sans-serif;
+}
+
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-title a {
+    color: #f26c4a;
+}
