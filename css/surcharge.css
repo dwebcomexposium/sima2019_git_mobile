@@ -8766,3 +8766,7 @@ h1.main-title {
 .mod-catal .catal-ex-item.is-premium .catal-ex-item-title a {
     color: #f26c4a;
 }
+
+.is-premium .catal-ex-item-tag-premium {
+    display:none;
+}
