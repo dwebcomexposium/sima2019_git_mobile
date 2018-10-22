@@ -58,3 +58,5 @@
     simaJS.init();
 
 })(jQuery);
+// JavaScript Document
+// test
