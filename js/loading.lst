@@ -1,11 +1,10 @@
 vendor/jquery/jquery.min.js
-#vendor/jquery/jquery.smartbanner.js
-vendor/jquery.smartbanner/jquery.smartbanner.js
+vendor/noty/js/noty/packaged/jquery.noty.packaged.js
 vendor/hammerjs/hammer.min.js
+vendor/mustache.js/jquery.mustache.js
+vendor/masonry/dist/masonry.pkgd.min.js
+vendor/imagesloaded/imagesloaded.pkgd.min.js
 cookies-warning.min.js
-#init.mobile-smartbanner.js
-handlebars.min.js
-modules/searchform.js
 modules/*
 unflux.js
 
