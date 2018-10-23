@@ -8770,3 +8770,122 @@ h1.main-title {
 .is-premium .catal-ex-item-tag-premium {
     display:none;
 }
+
+.mod-catal .esf-search-line #esf_simple_search {
+    width: 80%;
+}
+
+.mod-catal .esf-search-line #esf-btn-search {
+    background-image: url(/theme/sima2019_git_mobile/images/icon-search.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mod-catal.exhibitor-search-form a {
+    color: #2a2a2a;
+    margin-top: 12px;
+    margin: 17px auto 0;
+}
+
+.mod-catal .esf-search-plus .esf-search-plus-txt {
+    text-decoration: none;
+}
+
+.mod-catal .esf-as-header .esf-as-title:after, .mod-catal .esf-as-header .esf-as-title:before {
+    display:none;
+}
+
+.mod-catal .esf-as-header .esf-as-title {
+    padding-left: 1.5rem;
+}
+
+.mod-catal .esf-as-header .esf-as-title:focus:hover {
+    background: #f26c4a;
+    outline: none;
+}
+
+.mod-catal .esf-as-filters .m-btn-to-close {
+    color: #252525;
+}
+.mod-catal .esf-sublvl-heading.esf-sublvl-heading:hover {
+    background-color: #252525;
+}
+.mod-catal .esf-sublvl-heading .esf-back-to-prev-lvl:hover .icon-catal-arrow-left {
+    background-color:transparent;
+}
+.mod-catal .esf-as-activated-filters {
+    margin:0;
+}
+.mod-catal .esf-as-filters .esf-as-filters-group-title {
+    border-bottom-color: #f26c4a;
+    margin: 0;
+    padding: 1rem;
+    text-align: right;
+}
+.mod-catal .esf-as-af-filters>span .esf-tag-filter-remove {
+    -webkit-transform: translateY(6px);
+    -ms-transform: translateY(6px);
+    transform: translateY(6px);
+    margin-right: 3px;
+    background-color: transparent;
+}
+.mod-catal .esf-as-af-filters>span {
+    padding: 3px 19px 3px 11px;
+}
+.mod-catal .esf-as-af-filters .icon-catal-cross::after {
+    font-family: arial,helvetica,arial,sans-serif;
+}
+.mod-catal.exhibitor-search-form .esf-remove-filters .icon-catal {
+    display:none;
+}
+
+.mod-catal .esf-sublvl-heading.esf-sublvl-heading {
+    background-color: #252525;
+    margin: 0;
+}
+.mod-catal .esf-sublvl-heading .esf-back-to-prev-lvl {
+    padding-left: 0;
+    padding-top: 0;
+}
+.mod-catal .esf-sublvl-heading .esf-back-to-prev-lvl .icon-catal-arrow-left::before {
+    opacity: 0;
+}
+.mod-catal .esf-tree li+li {
+    margin: 0;
+    padding: 0 1rem;
+}
+.mod-catal .esf-as-filters .m-btn-to-close:focus, .mod-catal .esf-as-filters .m-btn-to-close:hover {
+    color: #f26c4a;
+}
+.mod-catal.exhibitor-search-form .esf-remove-filters {
+    margin: 0 0 0 auto;
+    color: #252525;
+    background-color: #e8e8e8;
+}
+.mod-catal .esf-as-list-filters a .esf-as-list-filters-next-lvl:after {
+    background: #fff;
+    content: "‹";
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+    font-size: 26px;
+    font-family: arial, helvetica, sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #181818;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 5px;
+    height: 15px;
+    width: 15px;
+    padding-right: 4px;
+}
+.mod-catal .esf-as-list-filters a {
+    height:58px;
+}
