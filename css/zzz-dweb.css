@@ -9,3 +9,7 @@ button.btn-primary.with-icon.js-mySelection[data-action=remove] .selection-empty
 button.btn-primary.with-icon.js-mySelection[data-action=add] .selection-full {
     display: none;
 }
+
+#cxpmClientAccountWidget {
+    position: initial !important;
+}
