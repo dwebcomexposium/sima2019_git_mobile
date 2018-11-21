@@ -8907,9 +8907,14 @@ h1.main-title {
     display: none
 }
 
+.body-mobile.faq .wrapper {
+    position: relative
+}
+
 .body-mobile.faq .fc-item {
     border-right: 1px solid #e3e9ea;
-    border-left: 1px solid #e3e9ea
+    border-left: 1px solid #e3e9ea;
+    padding: 0 !important
 }
 
 .body-mobile.faq .fc-title {
