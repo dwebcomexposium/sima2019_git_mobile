@@ -8907,6 +8907,19 @@ h1.main-title {
     display: none
 }
 
+.body-mobile.faq li {
+    position: relative
+}
+
+.body-mobile.faq .fc-item-content ul {
+    list-style-type: disc;
+    padding-left: 1em
+}
+
+.body-mobile.faq .fc-item-content ul li {
+    list-style-type: disc
+}
+
 .body-mobile.faq .wrapper {
     position: relative
 }
@@ -9020,7 +9033,7 @@ h1.main-title {
     height: 7rem;
     background-image: url(/theme/sima2019_git_mobile/images/faq_visiteurs.jpg);
     background-size: cover;
-    background-position: 25% 75%;
+    background-position: 25% 58%;
     z-index: -1;
     margin-bottom: 3rem
 }
