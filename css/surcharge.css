@@ -20966,9 +20966,7 @@ ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-376065 {
 }
 
 .site-banner>.inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
