@@ -28639,6 +28639,100 @@ h1.main-title {
     font-family: 'Roboto-condensed-regular'
 }
 
+.parent691061 .evd-wrapper .js-active-group .evd-infos-date-title:nth-child(1) {
+    padding-top: 0
+}
+
+.parent691061 .evd-wrapper .js-active-group .evd-infos-date-content {
+    margin: 0 !important
+}
+
+.parent691061 .evd-wrapper .evd-desc .evd-desc:nth-child(2) {
+    padding-left: 0
+}
+
+.parent691061 .evd-wrapper .evd-group:nth-child(6) {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem
+}
+
+.parent691061 .evd-wrapper .evd-group:nth-child(6) .evd-facts-title {
+    color: #8CC63F
+}
+
+.parent691061 .evd-wrapper .evd-group:nth-child(6) .evd-facts-list .evd-facts-term:nth-child(3) {
+    margin-bottom: 1.5rem !important
+}
+
+.parent691061 .evd-wrapper .evd-group:nth-child(6) .evd-facts-term {
+    margin-bottom: 1.5rem !important
+}
+
+.parent691061 .evd-wrapper .evd-group:nth-child(6) .evd-facts-term {
+    margin: 0 !important
+}
+
+.parent691061 .evd-wrapper .evd-group:nth-child(6) .evd-facts-def {
+    color: #8CC63F
+}
+
+.parent691061 .evd-wrapper .evd-group:nth-child(6) .evd-facts-list {
+    margin: 0
+}
+
+.parent691061 .evd-wrapper .evd-group:nth-child(6) h2 {
+    padding-left: 7px;
+    padding-top: 1rem
+}
+
+.parent691061 .evd-group:nth-child(1) {
+    background: red
+}
+
+.parent691061 .evd-facts-title.evd-title {
+    margin-left: 2px
+}
+
+.parent691061 .evd-facts-term {
+    margin-bottom: 1rem
+}
+
+.parent691061 .evd-facts-def a {
+    background: #F2F2F2;
+    padding: 1rem !important;
+    margin-right: 1rem
+}
+
+.parent691061 .evd-infos-date-title {
+    font-size: 2rem
+}
+
+.parent691061 .evd-facts-list {
+    padding: 1rem
+}
+
+.parent691061 .evd-infos-theme-title,
+.parent691061 .evd-infos-type-title,
+.parent691061 .evd-guests-title,
+.parent691061 .evd-register-title {
+    color: #8CC63F
+}
+
+.parent691061 .evd-facts.evd-group {
+    border: 1px solid #979797
+}
+
+.parent691061 .evd-desc.evd-group {
+    background: #F4F4F4;
+    padding: 2rem
+}
+
+.parent691061 .js-active-group.evd-infos.evd-group {
+    background: #F4F4F4;
+    padding: 2rem
+}
+
 .parent691061 .catal-nav-ex {
     display: none !important
 }
@@ -28665,7 +28759,8 @@ h1.main-title {
 
 .parent691061 h2 {
     padding: 2rem 0 0 0;
-    margin: 0
+    margin: 0;
+    border: none
 }
 
 .parent691061 .evd-desc {
@@ -28722,7 +28817,8 @@ h1.main-title {
 }
 
 .parent691061 h2 {
-    font-size: 2.5rem
+    font-size: 2.5rem;
+    line-height: 3rem
 }
 
 .parent691061 h3.evd-guests-name {
@@ -28921,4 +29017,28 @@ h1.main-title {
 
 .parent691061 .pagin-prev {
     margin-bottom: 1.5rem !important
+}
+
+.parent691061 .evd-dl-title {
+    background: #8CC63F !important;
+    color: white;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center
+}
+
+.parent691061 .evd-dl-docs {
+    border: none
+}
+
+.parent691061 .evd-dl-docs .btn-primary {
+    padding: 2rem;
+    background: #8CC63F;
+    border: none
+}
+
+.parent691061 .evd-dl-docs .btn-primary span {
+    color: white;
+    border: none
 }
