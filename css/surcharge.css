@@ -28635,7 +28635,8 @@ h1.main-title {
     margin: 0
 }
 
-.content453797 .pagination .pagin-item a {
+.content453797 .pagination .pagin-item a.previousEvent,
+.content453797 .pagination .pagin-item a.nextEvent {
     display: block !important
 }
 
