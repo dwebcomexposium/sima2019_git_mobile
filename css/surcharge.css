@@ -28243,10 +28243,6 @@ h1.main-title {
     color: #8CC63F
 }
 
-.content453797 .mod-catal a {
-    display: block !important
-}
-
 .content453797 h1 {
     color: #8CC63F;
     text-align: center;
@@ -28639,8 +28635,7 @@ h1.main-title {
     margin: 0
 }
 
-.content453797 .pagination .pagin-item a.previousEvent,
-.content453797 .pagination .pagin-item a.nextEvent {
+.content453797 .pagination .pagin-item a {
     display: block !important
 }
 
@@ -28814,10 +28809,6 @@ h1.main-title {
 
 .parent691061 .catal-ed-activity-link {
     color: #8CC63F
-}
-
-.parent691061 .pagination .pagin-item:nth-child(1) {
-    background: #8CC63F
 }
 
 .parent691061 .mod-catal .catal-ex-item-buttons .btn-primary::after,
@@ -29050,4 +29041,12 @@ h1.main-title {
 .parent691061 .evd-dl-docs .btn-primary span {
     color: white;
     border: none
+}
+
+.parent691061 .pagination .pagin-item:nth-child(1) {
+    background: #8CC63F
+}
+
+.parent691061 .pagination .pagin-item a {
+    display: block !important
 }
