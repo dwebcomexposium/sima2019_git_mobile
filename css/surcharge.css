@@ -28635,6 +28635,10 @@ h1.main-title {
     margin: 0
 }
 
+.content453797 .pagination .pagin-item a {
+    display: block !important
+}
+
 .parent691061 {
     font-family: 'Roboto-condensed-regular'
 }
