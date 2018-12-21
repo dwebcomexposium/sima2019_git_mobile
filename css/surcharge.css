@@ -28834,7 +28834,8 @@ h1.main-title {
     color: #8CC63F;
     font-family: 'Open-sans-bold';
     font-size: 3rem;
-    line-height: 2rem
+    line-height: 2rem;
+    text-transform: capitalize !important
 }
 
 .parent691061 h4 {
