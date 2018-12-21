@@ -28547,7 +28547,8 @@ h1.main-title {
 
 .content453797 .mod-catal .catal-ex-item-buttons .btn-primary::after,
 .content453797 .mod-catal .catal-ex-item-buttons-small .btn-primary::after {
-    color: #8CC63F !important
+    color: #8CC63F !important;
+    margin-top: -1.8rem
 }
 
 .content453797 .mod-catal .catal-ex-item-buttons .btn-primary::after,
