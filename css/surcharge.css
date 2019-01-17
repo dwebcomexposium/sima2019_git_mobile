@@ -7976,7 +7976,8 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .esf-search-line #esf-btn-search {
-	background-image: url(/theme/sima2019_git_mobile/images/icon-search.svg);
+	background-image: none;
+	padding: 0;
 	background-size: 20px;
 	background-repeat: no-repeat;
 	background-position: center
@@ -9757,6 +9758,10 @@ h1.main-title {
 	margin: 0
 }
 
+.content453797 .evsf-filter-item {
+	margin-bottom: 10px
+}
+
 .content453797 .evl-event-title {
 	margin: 8px 0 0 0 !important;
 	line-height: 15px;
@@ -10607,7 +10612,8 @@ h1.main-title {
 }
 
 .parent691061 .pagination .pagin-item {
-	padding: 0 !important
+	padding: 0 !important;
+	margin: 0 1rem
 }
 
 .parent691061 .pagination .pagin-item:nth-child(1) {
@@ -10615,7 +10621,7 @@ h1.main-title {
 }
 
 .parent691061 .pagination .pagin-item a {
-	padding: 1.5rem 0 !important;
+	padding: 1.5rem 1rem !important;
 	display: block !important
 }
 
@@ -10654,4 +10660,17 @@ h1.main-title {
 .parent691061 .evd-dl-kw-title {
 	margin-bottom: 5px;
 	margin-top: 5px
+}
+
+.parent691061 .js-add-to-calendar {
+	display: none
+}
+
+.parent691061 .pagination.mod-catal {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start
 }
