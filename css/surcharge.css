@@ -10119,6 +10119,25 @@ h1.main-title {
     font-family: 'Roboto-condensed-regular'
 }
 
+.parent691061 .evd-register-content a {
+    background-color: #8CC63F;
+    display: block;
+    width: 190px;
+    color: #fff !important;
+    margin: 0 auto !important;
+    padding: 23px 23px;
+    font-size: 20px;
+    line-height: 14px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase
+}
+
+.parent691061 .evd-register-content a::after {
+    content: "Sinscrire"
+}
+
 .parent691061 .btn-primary:focus {
     background: #8CC63F !important;
     border: none !important
@@ -10619,15 +10638,30 @@ h1.main-title {
 .parent691061 .evd-dl-docs .btn-primary {
     padding: 2rem;
     margin-bottom: 1rem;
-    background: #8CC63F;
-    border: none
+    background: white;
+    border: 1px solid #ddd
 }
 
 .parent691061 .evd-dl-docs .btn-primary span {
-    color: white;
+    color: #252525;
     border: none;
     font-size: 1.5rem;
-    font-weight: bold
+    font-weight: bold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center
+}
+
+.parent691061 .evd-dl-docs .btn-primary span .icon-catal {
+    color: #8CC63F;
+    font-size: 22px;
+    margin-right: 8px
 }
 
 .parent691061 .pagination .pagin-item {
