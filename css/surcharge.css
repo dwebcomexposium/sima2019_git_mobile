@@ -10119,12 +10119,16 @@ h1.main-title {
 	font-family: 'Roboto-condensed-regular'
 }
 
+.parent691061 .evd-register-title {
+	text-align: center !important
+}
+
 .parent691061 .evd-register-content a {
 	background-color: #8CC63F;
 	display: block;
 	width: 190px;
 	color: #fff !important;
-	margin: 0 auto !important;
+	margin: 10px auto !important;
 	padding: 23px 23px;
 	font-size: 20px;
 	line-height: 14px;
