@@ -1521,6 +1521,38 @@ ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-376065 {
 	content: "\ea1e"
 }
 
+@-webkit-keyframes pulsate {
+	0% {
+		-webkit-transform: scale(0.1, 0.1) translate(-50%, -50%);
+		        transform: scale(0.1, 0.1) translate(-50%, -50%);
+		opacity: 0
+	}
+	30% {
+		opacity: 0.4
+	}
+	60% {
+		-webkit-transform: scale(1.5, 1.5) translate(-50%, -50%);
+		        transform: scale(1.5, 1.5) translate(-50%, -50%);
+		opacity: 0
+	}
+}
+
+@keyframes pulsate {
+	0% {
+		-webkit-transform: scale(0.1, 0.1) translate(-50%, -50%);
+		        transform: scale(0.1, 0.1) translate(-50%, -50%);
+		opacity: 0
+	}
+	30% {
+		opacity: 0.4
+	}
+	60% {
+		-webkit-transform: scale(1.5, 1.5) translate(-50%, -50%);
+		        transform: scale(1.5, 1.5) translate(-50%, -50%);
+		opacity: 0
+	}
+}
+
 .btn {
 	padding: 2rem 3rem;
 	min-width: 20rem;
@@ -4308,6 +4340,193 @@ ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-376065 {
 
 .sr-list.unstyled .sr-item .icon {
 	display: none
+}
+
+.landing-video {
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	height: calc(100vh - 9rem);
+	padding: 0 2rem 2rem 2rem;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 1fr;
+	grid-template-columns: 1fr;
+	-ms-grid-rows: 2fr 0.5rem 1fr;
+	grid-template-rows: 2fr 1fr;
+	grid-gap: 0.5rem
+}
+
+.landing-video > *:nth-child(1) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 1
+}
+
+.landing-video > *:nth-child(2) {
+	-ms-grid-row: 3;
+	-ms-grid-column: 1
+}
+
+.landing-video .text-wrap {
+	background-color: #8CC63F;
+	background-image: none;
+	padding: 8%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	position: relative;
+	overflow: hidden
+}
+
+.landing-video .text-wrap .bloc-landing-text h1 {
+	font-size: 5.5rem;
+	line-height: 4.8rem
+}
+
+.landing-video .text-wrap .bloc-landing-text h1 span {
+	font-size: 2.5rem;
+	line-height: 4.2rem
+}
+
+.landing-video .text-wrap .bloc-landing-text p.desc {
+	font-size: 1.6rem
+}
+
+.landing-video .text-wrap .video-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	min-width: 100%;
+	min-height: 100%;
+	opacity: 0.15;
+	max-width: none;
+	background-size: cover;
+	background-position: center
+}
+
+.landing-video .video-wrap {
+	background-image: url("/theme/sima2019_git_mobile/images/bg-landing.jpg");
+	background-position: center;
+	background-size: cover;
+	background-color: #000000;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden
+}
+
+.landing-video .video-wrap:hover .play-button {
+	-webkit-transform: scale(1.05);
+	    -ms-transform: scale(1.05);
+	        transform: scale(1.05);
+	background-color: #f16440
+}
+
+.landing-video .video-wrap:hover .play-button p {
+	-webkit-transform: scale(0.95);
+	    -ms-transform: scale(0.95);
+	        transform: scale(0.95)
+}
+
+.landing-video .video-wrap .pulse {
+	border: 1px solid white;
+	border-radius: 50rem;
+	height: 22rem;
+	width: 22rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-animation: pulsate 4s ease-in;
+	        animation: pulsate 4s ease-in;
+	-webkit-transform-origin: top left;
+	    -ms-transform-origin: top left;
+	        transform-origin: top left;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	opacity: 0;
+	margin-top: -1.5rem;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%)
+}
+
+.landing-video .video-wrap .pulse.pulse-2 {
+	-webkit-animation-delay: 0.8s;
+	        animation-delay: 0.8s
+}
+
+.landing-video .video-wrap .pulse.pulse-3 {
+	-webkit-animation-delay: 1.6s;
+	        animation-delay: 1.6s
+}
+
+.landing-video .video-wrap .play-button {
+	width: 8rem;
+	height: 8rem;
+	border-radius: 50rem;
+	background-color: #F26C4A;
+	position: relative;
+	z-index: 1;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-shadow: 0 5px 15px -5px rgba(196, 84, 55, 0.45);
+	        box-shadow: 0 5px 15px -5px rgba(196, 84, 55, 0.45);
+	-webkit-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+	margin-top: -3rem
+}
+
+.landing-video .video-wrap .play-button .arrow {
+	width: 0;
+	height: 0;
+	border-top: 1rem solid transparent;
+	border-bottom: 1rem solid transparent;
+	border-left: 1.8rem solid white;
+	margin-right: -0.5rem
+}
+
+.landing-video .video-wrap .play-button p {
+	color: white;
+	text-transform: uppercase;
+	-webkit-transition: -webkit-transform 0.15s ease-out;
+	transition: -webkit-transform 0.15s ease-out;
+	-o-transition: transform 0.15s ease-out;
+	transition: transform 0.15s ease-out;
+	transition: transform 0.15s ease-out, -webkit-transform 0.15s ease-out;
+	font-size: 1.6rem;
+	font-family: "Open-sans-bold", Helvetica, Arial, sans-serif;
+	position: absolute;
+	bottom: -3rem;
+	width: 26rem;
+	text-align: center
+}
+
+.landing-video .bloc-landing-text {
+	position: relative;
+	z-index: 1
 }
 
 .front .zone .wrapper-grid {
@@ -10119,16 +10338,12 @@ h1.main-title {
 	font-family: 'Roboto-condensed-regular'
 }
 
-.parent691061 .evd-register-title {
-	text-align: center !important
-}
-
 .parent691061 .evd-register-content a {
 	background-color: #8CC63F;
 	display: block;
 	width: 190px;
 	color: #fff !important;
-	margin: 10px auto !important;
+	margin: 0 auto !important;
 	padding: 23px 23px;
 	font-size: 20px;
 	line-height: 14px;
@@ -10724,7 +10939,6 @@ h1.main-title {
 }
 
 .parent691061 .pagination.mod-catal {
-	display: none !important;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
