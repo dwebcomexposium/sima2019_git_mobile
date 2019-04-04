@@ -4491,7 +4491,7 @@ ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-376065 {
 	    -ms-flex-pack: center;
 	        justify-content: center;
 	height: calc(100vh - 9rem);
-	padding: 0 2rem 2rem 2rem;
+	padding: 0 1.5rem 1.5rem 1.5rem;
 	display: -ms-grid;
 	display: grid;
 	-ms-grid-columns: 1fr;
