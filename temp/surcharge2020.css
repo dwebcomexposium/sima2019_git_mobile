@@ -8782,8 +8782,34 @@ h1.main-title  {
   background-image: url("/theme/sima2019_git_mobile/images/bg-2.jpg") !important;
 }
 
-.body-mobile.evts .wrapper .list-articles > .inside h1::before {
+.body-mobile.evts .list-articles .inside .main-title {
+  font-size: 3.8rem;
+  margin-top: 0;
+  color: white;
+  line-height: 4rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  padding: 3.5rem 1.5rem 2rem;
+  margin-top: -3.4rem;
+  position: relative;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.body-mobile.evts .list-articles .inside .main-title::before {
   background-image: url("/theme/sima2019_git_mobile/images/bg-2.jpg") !important;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  opacity: .75;
 }
 
 .body-mobile.worldwide .article-wrapper .article-title > .inside h1::before {
