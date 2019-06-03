@@ -585,7 +585,7 @@ figure {
 }
 
 .article_list .list-articles .inside .main-title-with-link + .intro {
-  margin-top: -26rem;
+  margin-top: -22rem;
 }
 
 .article_list .list-articles .inside .intro {
@@ -8051,6 +8051,47 @@ h1.main-title  {
   color: white;
   line-height: 5.6rem;
   margin-bottom: 2.5rem;
+}
+
+body.article_list .list-articles .inside {
+  padding-top: 1rem !important;
+}
+
+body.article_list .list-articles .inside .grid-la-list {
+  padding-top: 1rem;
+}
+
+body.article_list .list-articles .inside .gla-item {
+  margin-bottom: 1rem !important;
+}
+
+body.article_list .site-banner + .wrapper::before {
+  content: "";
+  display: block;
+  background-color: #000;
+  width: calc(100% - 4rem);
+  margin: 0 2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 22rem;
+  background-image: url("/theme/sima2019_git_mobile/images/bg-2.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+body.evts.article_list .site-banner + .wrapper::before {
+  background-image: url("/theme/sima2019_git_mobile/images/bg-2.jpg");
+}
+
+body.infos.article_list .list-articles .inside .main-title {
+  font-size: 3.4rem;
+}
+
+body.infos.article_list .site-banner + .wrapper::before {
+  height: 30rem;
+  background-image: url("/theme/sima2019_git_mobile/images/bg-5.jpg");
 }
 
 .body-mobile:not(.front):not(.content374293):not(.exposant):not(.article_list) .wrapper {
