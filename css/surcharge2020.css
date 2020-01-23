@@ -6,6 +6,10 @@
   font-family: inherit !important;
 }
 
+.list-articles .inside .main-title-with-link .link-view-all {
+  font-family: inherit !important;
+}
+
 * {
   box-sizing: border-box;
 }
