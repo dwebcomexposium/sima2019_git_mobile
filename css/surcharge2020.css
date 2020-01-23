@@ -15,6 +15,11 @@
   font-weight: bold !important;
 }
 
+.front .zone .solution-agriculteur .inside .edito-item-btn a {
+  font-family: inherit !important;
+  font-weight: bold !important;
+}
+
 * {
   box-sizing: border-box;
 }
