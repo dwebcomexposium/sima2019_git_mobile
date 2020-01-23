@@ -4,10 +4,15 @@
 /*ajout*/
 .front .zone h2, .front .zone .focus1, .front .zone .edito-item-btn {
   font-family: inherit !important;
+  font-weight: bold !important;
 }
 
 .list-articles .inside .main-title-with-link .link-view-all {
   font-family: inherit !important;
+}
+
+.list-articles .inside .grid-la-list .gla-item .gla-item-title {
+  font-weight: bold !important;
 }
 
 * {
