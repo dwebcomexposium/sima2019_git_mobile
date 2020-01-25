@@ -4,11 +4,11 @@
 /* Dependencies */
 /* @import "common/oldcss"; */
 .parent547663.content743324 .main-navigation.menu-open {
+  display: none; }
+.parent547663.content743324 .main-navigation.menu-open + .main-navigation.menu-open {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-.parent547663.content743324 .main-navigation.menu-open + .main-navigation.menu-open {
-  display: none; }
 
 /*ajout*/
 .front .zone h2, .front .zone .focus1, .front .zone .edito-item-btn {
