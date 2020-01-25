@@ -3,13 +3,6 @@
 @charset "UTF-8";
 /* Dependencies */
 /* @import "common/oldcss"; */
-.parent547663.content743324 .site-banner > .inside .main-navigation.menu-open {
-  display: none; }
-.parent547663.content743324 .site-banner > .inside .main-navigation + .main-navigation.menu-open {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
 /*ajout*/
 .front .zone h2, .front .zone .focus1, .front .zone .edito-item-btn {
   font-family: inherit !important;
