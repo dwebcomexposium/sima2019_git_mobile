@@ -6,8 +6,8 @@
 .parent1217266 .main-navigation.menu-open,
 .content743324 .main-navigation.menu-open {
   display: none !important; }
-.parent1217266 .main-navigation.menu-open,
-.content743324 .main-navigation.menu-open {
+.parent1217266 .main-navigation.menu-open + .main-navigation.menu-open,
+.content743324 .main-navigation.menu-open + .main-navigation.menu-open {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important; }
