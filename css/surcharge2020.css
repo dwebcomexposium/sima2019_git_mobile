@@ -6,9 +6,8 @@
 .parent547663.content743324 .main-navigation.menu-open {
   display: none; }
 .parent547663.content743324 .main-navigation.menu-open + .main-navigation.menu-open {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important; }
+  display: inherit !important;
+  background: red; }
 
 /*ajout*/
 .front .zone h2, .front .zone .focus1, .front .zone .edito-item-btn {
