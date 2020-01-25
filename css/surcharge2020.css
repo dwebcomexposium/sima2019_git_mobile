@@ -3,6 +3,9 @@
 @charset "UTF-8";
 /* Dependencies */
 /* @import "common/oldcss"; */
+.parent547663.content743324 .site-banner > .inside .main-navigation.menu-open {
+  display: block !important; }
+
 /*ajout*/
 .front .zone h2, .front .zone .focus1, .front .zone .edito-item-btn {
   font-family: inherit !important;
