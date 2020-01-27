@@ -3,8 +3,14 @@
 @charset "UTF-8";
 /* Dependencies */
 /* @import "common/oldcss"; */
-.parent547663.content743324 .site-banner > .inside .main-navigation.menu-open {
-  display: block !important; }
+body.parent1217266 .site-banner > .inside .sb-menu-trigger.menu-open + .main-navigation,
+body.content743324 .site-banner > .inside .sb-menu-trigger.menu-open + .main-navigation {
+  display: none !important; }
+  body.parent1217266 .site-banner > .inside .sb-menu-trigger.menu-open + .main-navigation + .main-navigation,
+  body.content743324 .site-banner > .inside .sb-menu-trigger.menu-open + .main-navigation + .main-navigation {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important; }
 
 /*ajout*/
 .front .zone h2, .front .zone .focus1, .front .zone .edito-item-btn {
