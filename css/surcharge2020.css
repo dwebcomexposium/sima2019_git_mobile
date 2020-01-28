@@ -11,6 +11,9 @@ body.content743324 .site-banner > .inside .sb-menu-trigger.menu-open + .main-nav
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important; }
+    body.parent1217266 .site-banner > .inside .sb-menu-trigger.menu-open + .main-navigation ~ .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1:nth-last-child(-n+2) .mn-link,
+    body.content743324 .site-banner > .inside .sb-menu-trigger.menu-open + .main-navigation ~ .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1:nth-last-child(-n+2) .mn-link {
+      text-transform: uppercase; }
 
 /*ajout*/
 .front .zone h2, .front .zone .focus1, .front .zone .edito-item-btn {
