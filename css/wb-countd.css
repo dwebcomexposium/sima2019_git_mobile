@@ -1,17 +1,15 @@
 .landing-video-2 .container  { -ms-flex-pack: distribute; justify-content: space-around; }
 .hright { font-family: neutrifstudio-bold,Helvetica,Arial,sans-serif; }
-.hright a.video-wrap { margin-top: 50px; }
-.hright h3 { color: #fff; text-align: center; line-height: 140%; padding-top: 60px; }
+.hright a.video-wrap { margin-top: 20px; }
+.hright h3 { color: #fff; text-align: center; line-height: 140%; padding-top: 20px; }
 
-.countd { padding: 22px 13px; text-align: center; line-height: 1;  background: #0B8E36 ; font-family: neutrifstudio-bold,Helvetica,Arial,sans-serif; width: 400px; text-align: center; margin: 0 auto;
-}
-/*.countd a { text-decoration: none; color: #fff; font-size: 18px; line-height: 1; }*/
-.countd span { text-decoration: none; color: #fff; font-size: 18px; line-height: 1; }
-.countd li { display: inline-block; border-right: 1px solid #F39200; padding: 0 20px;  }
+.countd { padding: 17px 10px; text-align: center; line-height: 1;  background: #0B8E36 ; font-family: neutrifstudio-bold,Helvetica,Arial,sans-serif; width: 100%; text-align: center; margin: 0 auto; margin-top: -9px; }
+
+.countd span { text-decoration: none; color: #fff; font-size: 15px; line-height: 1; }
+.countd li { display: inline-block; border-right: 1px solid #F39200; padding: 0 10px;  }
 .countd li:last-child { border: 0; }
 
-@media screen and (max-width:1199px) {
-	.countd { padding: 18px 13px; }
-	.hright h3 { padding-top: 40px; }
-
-}
+.landing-video-2 .video-wrap .play-button { width: 50px; height: 50px; border-radius: 50rem; }
+.landing-video-2 .video-wrap .play-button p { font-size: 12px;  position: absolute; }
+.landing-video-2 .video-wrap .play-button .arrow { border-top: .7rem solid transparent;
+    border-bottom: .7rem solid transparent;  border-left: 1rem solid #fff; margin-right: -.4rem; }
