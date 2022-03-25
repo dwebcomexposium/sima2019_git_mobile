@@ -920,7 +920,8 @@ ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-376065 {
 .mn-menu-item-376072 {
   -webkit-box-ordinal-group: 4;
       -ms-flex-order: 3;
-          order: 3; }
+          order: 3; 
+display:none;}
 
 /*espace exposant*/
 .mn-menu-item-396123 {
