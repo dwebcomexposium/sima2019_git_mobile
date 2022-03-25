@@ -8734,6 +8734,6 @@ body.infos.article_list .site-banner + .wrapper::before {
   .parent691061 .social-sharing {
     display: none !important; }
 
-.site-banner>.inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-376072 {
-  display: none!important;
+.site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-376072 {
+  display: none !important;
 }
