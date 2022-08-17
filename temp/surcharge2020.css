@@ -89,7 +89,7 @@ h1 {
 }
 
 @font-face {
-    font-family: 'Roboto-condensed-regular';
+    font-family: 'Roboto-condensed-regular', arial, sans-serif;
     src: url('/theme/sima2019_git_mobile/fonts/roboto/RobotoCondensed-Regular.ttf');
 }
 
