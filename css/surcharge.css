@@ -12088,7 +12088,7 @@ h1.main-title {
 }
 
 .page-events.event {
-  font-family: "Roboto-condensed-regular";
+  font-family: "Roboto-condensed-regular", Arial, Helvetica, sans-serif;
 }
 
 .page-events.event .evd-register-content a {

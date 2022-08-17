@@ -11701,7 +11701,7 @@ body.infos.article_list .site-banner + .wrapper::before {
 }
 
 .page-events.event {
-  font-family: "Roboto-condensed-regular";
+  font-family: "Roboto-condensed-regular", Arial, Helvetica, sans-serif;
 }
 .page-events.event .evd-register-content a {
   background-color: #0b8e36;
