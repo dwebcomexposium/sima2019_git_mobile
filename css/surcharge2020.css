@@ -12212,6 +12212,7 @@ body.infos.article_list .site-banner + .wrapper::before {
   -ms-flex-align: start;
   align-items: flex-start;
 }
+
 .page-events.event .social-sharing {
   display: none !important;
 }
