@@ -12223,13 +12223,13 @@ body.infos.article_list .site-banner + .wrapper::before {
 
 .landing-anniversary {
   justify-content: center;
-  max-height: 62rem;
+  max-height: 64rem;
   background-image: url("https://www.simaonline.com/theme/sima2019_git_desktop/images/sima-photo-fr.webp");
   background-size: cover;
   background-position: center;
   border: 2rem solid white;
   border-top: 0 none;
-  padding: 2rem;
+  padding: 4rem 2rem 2rem 2rem;
   display: flex;
   align-items: center;
 }
@@ -12258,7 +12258,7 @@ html[lang="en"] .landing-anniversary {
 .landing-anniversary .event {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .landing-anniversary .anniversary {
@@ -12280,7 +12280,7 @@ html[lang="en"] .landing-anniversary {
 .landing-anniversary .anniversary .title {
   background-color: #0B8E36;
   padding: 1.5rem 2rem;
-  margin: 1.5rem 0;
+  margin: 0.5rem 0;
   position: relative;
 }
 
@@ -12298,29 +12298,18 @@ html[lang="en"] .landing-anniversary {
   transform-origin: center;
   transition: transform 0.3s ease-in-out;
   transform-box: fill-box;
-  /* animation: 1s ease-in-out 0s infinite alternate anniversary-stars ; */
-}
-
-.landing-anniversary .anniversary .title svg g:nth-of-type(1) {
-  animation-delay: 0.25s;
-}
-.landing-anniversary .anniversary .title svg g:nth-of-type(2) {
-  animation-delay: 1.75s;
-}
-.landing-anniversary .anniversary .title svg g:nth-of-type(3) {
-  animation-delay: 3.25s;
 }
 
 .landing-anniversary .anniversary .title svg:nth-of-type(1) {
   right: 0;
   top: 0;
-  transform: translateX(50%) translateY(-50%);
+  transform: translateX(55%) translateY(-55%);
 }
 
 .landing-anniversary .anniversary .title svg:nth-of-type(2) {
   left: 0;
   bottom: 0;
-  transform: translateX(-50%) translateY(50%);
+  transform: translateX(-55%) translateY(55%);
 }
 
 .landing-anniversary .text-wrap {
