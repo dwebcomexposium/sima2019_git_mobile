@@ -12392,3 +12392,87 @@ html[lang="en"] .landing-anniversary {
 .landing-anniversary .countd li span {
   color: #0B8E36;
 }
+
+.popup {
+	 position: fixed;
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 bottom: 0;
+	 z-index: 20;
+	 display: flex;
+}
+ .popup::before {
+	 background-color: rgba(0, 10, 3, 0.6);
+	 content: "";
+	 width: 100vw;
+	 height: 100vh;
+	 position: absolute;
+	 top: 0;
+	 bottom: 0;
+	 left: 0;
+	 z-index: 5;
+}
+ .popup__container {
+	 background: linear-gradient(180deg, #0b8e36 26.66%, #f39200 149.01%);
+	 width: 100%;
+	 max-width: 78rem;
+	 margin: auto;
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 justify-content: center;
+	 z-index: 12;
+	 position: relative;
+	 padding: 10rem;
+}
+ .popup__container > svg {
+	 width: 15rem;
+	 opacity: 0.5;
+	 transform: rotate(323deg);
+	 position: absolute;
+	 bottom: 0;
+	 right: 0;
+}
+ .popup__container a {
+	 margin-top: 6rem;
+	 padding: 1rem 2rem;
+	 font-size: 3rem;
+	 line-height: 1;
+}
+ .popup__close {
+	 position: absolute;
+	 top: 1.8rem;
+	 right: 1.8rem;
+	 display: flex;
+	 align-items: center;
+	 gap: 16px;
+	 cursor: pointer;
+}
+ .popup__close p {
+	 font-size: 1.3rem;
+	 color: white;
+	 display: flex;
+	 align-items: center;
+	 margin: 0;
+}
+ .popup__text {
+	 display: flex;
+	 flex-direction: column;
+	 gap: 1rem;
+	 font-family: 'neutrifstudio-regular';
+	 font-size: 2.4rem;
+	 color: white;
+	 text-align: center;
+}
+ .popup__text__title {
+	 font-size: 3.4rem;
+	 line-height: 1.2;
+	 font-family: 'neutrifstudio-bold';
+}
+ .popup__text__subtitle {
+	 color: white;
+	 font-family: 'neutrifstudio-bold';
+	 font-size: 2.4rem;
+	 margin-top: 2rem;
+}
