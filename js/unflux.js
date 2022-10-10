@@ -7,7 +7,7 @@
             this.addLang();
             this.showMenu();
             this.scrollHorizontalTable();
-
+            this.rework2020();
         },
         
 
@@ -51,6 +51,16 @@
 
         scrollHorizontalTable : function() {
             $('.article-content table').wrap('<div class="horizontalScroll"></div>');
+        }
+        
+        rework2020() {
+            const popUp = document.querySelector('.popup')
+            if(popUp) {
+                const close = popUp.querySelector('.popup__close')
+                close.addEventListener('click', () => {
+                    popUp.style.display = 'none';
+                })
+            }
         }
 
     }
