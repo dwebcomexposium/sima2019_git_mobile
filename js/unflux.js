@@ -1,5 +1,6 @@
 (function($) {
 
+    console.log('maj')
     var simaJS = {
 
         init : function(){
@@ -51,9 +52,9 @@
 
         scrollHorizontalTable : function() {
             $('.article-content table').wrap('<div class="horizontalScroll"></div>');
-        }
+        },
         
-        rework2020: () => {
+        rework2020() {
             const popUp = document.querySelector('.popup')
             if(popUp) {
                 const close = popUp.querySelector('.popup__close')
