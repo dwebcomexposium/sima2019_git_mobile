@@ -1,6 +1,27 @@
-(function($) {
+const setCookie = (cname, cvalue, exdays) => {
+  const d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  let expires = "expires="+ d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
 
-    console.log('maj')
+const getCookie = (cname) => {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i <ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+(function($) {
     var simaJS = {
 
         init : function(){
@@ -57,10 +78,18 @@
         rework2020() {
             const popUp = document.querySelector('.popup')
             if(popUp) {
+              const showPopup = getCookie('popup')
+              if(!showPopup) {
+                popUp.style.display = 'flex';
+                const HTMLElement = document.querySelector('html')
+                HTMLElement.classList.add('noscroll')
                 const close = popUp.querySelector('.popup__close')
                 close.addEventListener('click', () => {
+                    setCookie('popup', 'false', 10)
                     popUp.style.display = 'none';
+                    HTMLElement.classList.remove('noscroll')
                 })
+              }
             }
         }
 
