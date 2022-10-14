@@ -12400,7 +12400,7 @@ html[lang="en"] .landing-anniversary {
 	 right: 0;
 	 bottom: 0;
 	 z-index: 20;
-	 display: flex;
+	 display: none;
 	padding: 2rem;
 }
  .popup::before {
