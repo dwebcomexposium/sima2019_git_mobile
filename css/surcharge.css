@@ -13009,3 +13009,89 @@ h1.main-title {
 	align-self: flex-start;
     	height: 160%;
 }
+
+.front[data-location-path='547663,598535,1433567'] .site-wrapper,
+.content905618 .site-wrapper,
+.content905639 .site-wrapper {
+  margin-top: calc(15rem + 93px) !important;
+  transition: margin 0.3s ease-in-out;
+}
+
+.front[data-location-path='547663,598535,1433567'] .site-wrapper.no-banner,
+.content905618 .site-wrapper.no-banner,
+.content905639 .site-wrapper.no-banner {
+  margin-top: 15rem !important;
+}
+
+.anniversary-baneer {
+  height: 93px;
+  width: 100%;
+  background: linear-gradient(270deg, #0B8E36 66.48%, #F39200 100%);
+  position: relative;
+  z-index: 1;
+}
+
+.site-banner {
+  transition: transform 0.3s ease-in-out;
+}
+
+.site-banner.anniversary-baneer-wrapper.is-stuck,
+.site-banner.no-banner {
+  transform: translateY(-93px);
+}
+
+.anniversary-baneer__container {
+  max-width: 116rem;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.anniversary-baneer__container > svg {
+  width: 127px;
+}
+
+.anniversary-baneer__content {
+  height: 100%;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto 0 3.7rem;
+}
+
+.anniversary-baneer__container p {
+  margin: 0;
+  line-height: 1;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.anniversary-baneer__content p strong {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.anniversary-baneer .btn {
+  height: fit-content;
+  margin: auto 0;
+  padding: 0.5rem 2rem;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.anniversary-baneer__close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.anniversary-baneer__close svg{
+  width: 12px;
+}

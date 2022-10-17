@@ -30,6 +30,7 @@ const getCookie = (cname) => {
             this.showMenu();
             this.scrollHorizontalTable();
             this.rework2020();
+            this.anniversaryBaneer();
             this.anniversaryGridBlock();
         },
         
@@ -92,6 +93,26 @@ const getCookie = (cname) => {
                 })
               }
             }
+        },
+
+        anniversaryBaneer() {
+            const baneer = document.querySelector('.anniversary-baneer')
+            if(!baneer) return
+
+            // Add class on parent
+            baneer.parentNode.parentNode.classList.add('anniversary-baneer-wrapper')
+
+            // Move banner
+            const header = document.querySelector('.site-banner')
+            const headerInside = header.querySelector('.inside')
+            header.insertBefore(baneer, headerInside)
+
+            // Handle close banner
+            const close = document.querySelector('.anniversary-baneer__close') 
+            close.addEventListener('click', () => {
+                header.classList.add('no-banner')
+                document.querySelector('.site-wrapper').classList.add('no-banner')
+            })
         },
 
         anniversaryGridBlock() {
