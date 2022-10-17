@@ -30,6 +30,7 @@ const getCookie = (cname) => {
             this.showMenu();
             this.scrollHorizontalTable();
             this.rework2020();
+            this.anniversaryGridBlock();
         },
         
 
@@ -91,6 +92,22 @@ const getCookie = (cname) => {
                 })
               }
             }
+        },
+
+        anniversaryGridBlock() {
+          const wrapper = document.querySelector('#zone2')
+          const blocks = document.querySelectorAll('.block[class*="centans"]')
+          if(blocks.length > 0) {
+            const container = document.createElement('div')
+            container.classList.add('anniversary-grid')
+            wrapper.insertBefore(container, blocks[0])
+            const subContainer = document.createElement('div')
+            subContainer.classList.add('anniversary-grid__container')
+            container.appendChild(subContainer)
+            blocks.forEach(el => {
+              subContainer.appendChild(el)
+            })
+          }
         }
 
     }

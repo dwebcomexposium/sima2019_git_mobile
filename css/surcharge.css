@@ -12802,3 +12802,210 @@ h1.main-title {
 	 font-size: 2.4rem;
 	 margin-top: 2rem;
 }
+
+.front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) {
+  background: #f4f4f4;
+  padding-bottom: 4rem;
+}
+
+.front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) .inside {
+  margin: auto;
+  max-width: 116rem;
+}
+
+.front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) .block-title {
+  font-weight: 700;
+  font-size: 5.2rem;
+  text-align: center;
+  line-height: 1.2;
+  padding-bottom: 1rem;
+  margin: 0!important;
+  text-transform: uppercase;
+  color: #252525;
+  font-family: 'neutrifstudio-bold';
+}
+
+.front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) .inside > p {
+  font-weight: 400;
+  font-family: 'neutrifstudio-regular';
+  line-height: 1.2;
+  font-size: 3rem;
+  color: rgba(0,0,0,.63);
+  text-align: center;
+  margin: 0!important;
+}
+
+.anniversary-grid {
+  padding: 25rem 0 43rem 0;
+  position: relative;
+}
+
+.anniversary-grid::before {
+  content: "";
+	position: absolute;
+  top: 0;
+  left: 0;  
+  width: 100vw;
+  height: 100%;
+  background-color: #f4f4f4;
+  clip-path: polygon(0 0, 100% 0%, 100% 30%, 0 44%);
+}
+
+.anniversary-grid__container {
+  position: relative;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 38rem);
+	grid-template-rows: repeat(3, 38rem);
+	max-width: calc(3 * 40rem);
+	margin: auto;
+	justify-content: center;
+}
+
+.anniversary-grid__container::before {
+  line-height: 0.8;
+  content: "100";
+  position: absolute;
+  bottom: 15rem;
+  font-size: 40rem;
+  font-family: 'NeutrifStudio-bold';
+  right: calc(2 * 39rem);
+  color: #0B8E36;
+  opacity: 0.1;
+}
+
+.anniversary-grid__container::after {
+  content: "";
+  background: url(/theme/sima2019_git_desktop/images/anniversary.svg);
+  width: 33rem;
+  height: 33rem;
+  top: -20rem;
+  right: -20rem;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.anniversary-grid__container .block {
+  z-index: 1;
+}
+
+.anniversary-grid__container .block .inside {
+	width: 100%;
+	height: 100%;
+}
+
+.anniversary-grid .block[class*="centans"] img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.anniversary-grid .block[class*="centans"] ul {
+  display: none;
+}
+
+.anniversary-grid .block[class*="centans"] .at-content {
+  position: absolute;
+  z-index: 10;
+  padding: 3rem;
+}
+
+.anniversary-grid .block[class*="centans"] p {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: white;
+  font-family: 'NeutrifStudio-regular';
+}
+
+
+.anniversary-grid .block[class*="centans"] .block-title {
+  padding: 0;
+  margin-bottom: 1.5rem;
+  line-height: 1;
+}
+
+.anniversary-grid .block[class*="centans"] .block-title a {
+  line-height: 1;
+  font-size: 2.8rem;
+  color: white;
+  font-family: 'NeutrifStudio-bold';
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(1) .inside,
+.anniversary-grid .block[class*="centans"]:nth-of-type(2) .inside {
+	display: flex;
+	align-items: flex-end;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(1) {
+	align-self: flex-end;
+  height: 160%;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(1)  .block-title a {
+  font-size: 5rem;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(2) {
+    grid-column: span 2;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(2) .block-title a {
+  font-size: 4rem;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(3) {
+    background-color: #F4F4F4;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(4) {
+    background-color: white;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(5) {
+
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(6) {
+    grid-column-start: 2;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(7) {
+    background-color: #F4F4F4;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(4) .block-title a {
+	color: #0B8E36;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(3) .block-title a,
+.anniversary-grid .block[class*="centans"]:nth-of-type(7) .block-title a {
+	color: #634E42;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(3) p ,
+.anniversary-grid .block[class*="centans"]:nth-of-type(4) p ,
+.anniversary-grid .block[class*="centans"]:nth-of-type(7) p {
+	color: #252525;
+}
+
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(1) .inside::after,
+.anniversary-grid .block[class*="centans"]:nth-of-type(2) .inside::after,
+.anniversary-grid .block[class*="centans"]:nth-of-type(5) .inside::after,
+.anniversary-grid .block[class*="centans"]:nth-of-type(6) .inside::after {
+	content: "";
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.63) 100%);
+}
+
+.anniversary-grid .block[class*="centans"]:last-child {
+	align-self: flex-start;
+    	height: 160%;
+}
