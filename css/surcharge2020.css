@@ -12611,14 +12611,15 @@ html[lang="en"] .landing-anniversary {
   padding: 0 !important;
 }
 
+.anniversary-grid .ezxmltext-field p {
+  display: flex;
+  flex-direction: column;
+}
+
 .anniversary-grid .block[class*="centans"]:nth-of-type(1) .inside,
 .anniversary-grid .block[class*="centans"]:nth-of-type(2) .inside {
 	display: flex;
 	align-items: flex-end;
-}
-
-.anniversary-grid .block[class*="centans"]:nth-of-type(1) {
-	align-self: flex-end;
 }
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(1)  .block-title a {
@@ -12631,6 +12632,11 @@ html[lang="en"] .landing-anniversary {
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(2) .block-title a {
   font-size: 4rem;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(2) .lien1 {
+  background-color: #0b8e36;
+  color: white;
 }
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(3) {
@@ -12794,4 +12800,69 @@ html[lang="en"] .landing-anniversary {
 
 header.scrollUp {
   transform: translateY(-180px) !important;
+}
+
+.front[data-location-path='547663,598535,1433567'] .focusbadge {
+  width: 100%;
+  max-width: 116rem;
+  margin: 4.5rem auto !important;
+  background: #634e42;
+  min-height: unset;
+  display: grid;
+  column-gap: 10rem;
+  row-gap: 0.5rem;
+  justify-content: space-between;
+  grid-template-areas:
+    'title button'
+    'content button';
+  position: relative;
+  padding: 6rem 7rem;
+}
+
+.front[data-location-path='547663,598535,1433567'] .focusbadge::after {
+  content: "";
+  width: 26rem;
+  height: 26rem;
+  position: absolute;
+  background-size: contain;
+  right: -2rem;
+  top: 1.4rem;
+  background-image: url(/theme/sima2019_git_desktop/images/icon-ticket.svg);
+}
+
+.front[data-location-path='547663,598535,1433567'] .focusbadge .af-title {
+  color: white;
+  grid-area: title;
+  margin: 0 !important;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.front[data-location-path='547663,598535,1433567'] .focusbadge .txtright {
+  color: white;
+  grid-area: button;
+  z-index: 2;
+  margin: 0;
+}
+
+.front[data-location-path='547663,598535,1433567'] .focusbadge .txtright::before {
+  content: none !important;
+}
+
+.front[data-location-path='547663,598535,1433567'] .focusbadge .txtright a {
+  background-color: white;
+  color: #634e42;
+}
+
+.front[data-location-path='547663,598535,1433567'] .focusbadge p {
+  grid-area: content;
+  font-size: 1.8rem;
+  text-transform: none;
+  font-weight: 500;
+  font-family: "Overpass", Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+}
+
+.front[data-location-path='547663,598535,1433567'] .focusbadge p:empty {
+  display: none;
 }
