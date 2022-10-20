@@ -12784,3 +12784,7 @@ html[lang="en"] .landing-anniversary {
 .anniversary-baneer__close svg{
   width: 12px;
 }
+
+header.scrollUp {
+  transform: translateY(-180px);
+}
