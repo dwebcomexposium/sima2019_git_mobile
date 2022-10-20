@@ -12786,5 +12786,5 @@ html[lang="en"] .landing-anniversary {
 }
 
 header.scrollUp {
-  transform: translateY(-180px);
+  transform: translateY(-180px) !important;
 }
