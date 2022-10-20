@@ -12809,12 +12809,12 @@ header.scrollUp {
   background: #634e42;
   min-height: unset;
   display: grid;
-  column-gap: 10rem;
-  row-gap: 0.5rem;
+  row-gap: 5rem;
   justify-content: space-between;
   grid-template-areas:
-    'title button'
-    'content button';
+    'title'
+    'content'
+    'button';
   position: relative;
   padding: 6rem 7rem;
 }
@@ -12836,6 +12836,7 @@ header.scrollUp {
   margin: 0 !important;
   font-size: 3.5rem;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .front[data-location-path='547663,598535,1433567'] .focusbadge .txtright {
@@ -12843,6 +12844,8 @@ header.scrollUp {
   grid-area: button;
   z-index: 2;
   margin: 0;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .front[data-location-path='547663,598535,1433567'] .focusbadge .txtright::before {
