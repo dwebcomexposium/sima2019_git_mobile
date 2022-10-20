@@ -12482,7 +12482,7 @@ html[lang="en"] .landing-anniversary {
 
 .front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) {
   background: #f4f4f4;
-  padding-bottom: 4rem;
+  padding: 2rem 4rem 4rem 4rem;
 }
 
 .front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) .inside {
@@ -12492,7 +12492,7 @@ html[lang="en"] .landing-anniversary {
 
 .front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) .block-title {
   font-weight: 700;
-  font-size: 5.2rem;
+  font-size: 3.2rem;
   text-align: center;
   line-height: 1.2;
   padding-bottom: 1rem;
@@ -12506,7 +12506,7 @@ html[lang="en"] .landing-anniversary {
   font-weight: 400;
   font-family: 'neutrifstudio-regular';
   line-height: 1.2;
-  font-size: 3rem;
+  font-size: 1.8rem;
   color: rgba(0,0,0,.63);
   text-align: center;
   margin: 0!important;
@@ -12531,7 +12531,7 @@ html[lang="en"] .landing-anniversary {
 .anniversary-grid__container {
   position: relative;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, 38rem);
+	grid-template-columns: 100vw;
 	grid-template-rows: repeat(3, 38rem);
 	max-width: calc(3 * 40rem);
 	margin: auto;
@@ -12609,6 +12609,10 @@ html[lang="en"] .landing-anniversary {
   font-size: 2.8rem;
   color: white;
   font-family: 'NeutrifStudio-bold';
+}
+
+.anniversary-grid .article-intro {
+  padding: 0 !important;
 }
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(1) .inside,
