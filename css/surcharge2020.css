@@ -12760,6 +12760,7 @@ html[lang="en"] .landing-anniversary {
 }
 
 .anniversary-baneer .btn {
+  grid-area: btn;
   height: fit-content;
   margin: auto;
   padding: 0.5rem 1rem;
