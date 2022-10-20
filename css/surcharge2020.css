@@ -12480,6 +12480,38 @@ html[lang="en"] .landing-anniversary {
 	 margin-top: 2rem;
 }
 
+.front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) {
+  background: #f4f4f4;
+  padding-bottom: 4rem;
+}
+
+.front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) .inside {
+  margin: auto;
+  max-width: 116rem;
+}
+
+.front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) .block-title {
+  font-weight: 700;
+  font-size: 5.2rem;
+  text-align: center;
+  line-height: 1.2;
+  padding-bottom: 1rem;
+  margin: 0!important;
+  text-transform: uppercase;
+  color: #252525;
+  font-family: 'neutrifstudio-bold';
+}
+
+.front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) .inside > p {
+  font-weight: 400;
+  font-family: 'neutrifstudio-regular';
+  line-height: 1.2;
+  font-size: 3rem;
+  color: rgba(0,0,0,.63);
+  text-align: center;
+  margin: 0!important;
+}
+
 .anniversary-grid {
   padding: 25rem 0 43rem 0;
   position: relative;
