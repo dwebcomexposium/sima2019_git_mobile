@@ -2863,6 +2863,19 @@ ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-376065 {
   -ms-flex-pack: end;
   justify-content: flex-end;
 }
+
+@media (max-width: 500px) {
+  .site-footer
+  > .inside
+  .newsletter-form
+  .nf-main-content
+  .inside
+  .nf-form-item
+  .nf-form-submit {
+    margin-top: -14.8rem;
+  }
+}
+
 .site-footer
   > .inside
   .newsletter-form
