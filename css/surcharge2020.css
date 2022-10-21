@@ -12806,7 +12806,7 @@ header.scrollUp {
   width: 100%;
   max-width: 116rem;
   margin: 4.5rem auto !important;
-  background: #634e42;
+  background: #0B8E36;
   min-height: unset;
   display: grid;
   row-gap: 5rem;
@@ -12854,7 +12854,7 @@ header.scrollUp {
 
 .front[data-location-path='547663,598535,1433567'] .focusbadge .txtright a {
   background-color: white;
-  color: #634e42;
+  color: #0B8E36;
 }
 
 .front[data-location-path='547663,598535,1433567'] .focusbadge p {
