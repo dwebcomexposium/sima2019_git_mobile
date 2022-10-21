@@ -12785,7 +12785,7 @@ html[lang="en"] .landing-anniversary {
 
 .anniversary-baneer__close {
   order: -1;
-  margin: 0 0 0 auto;
+  margin: 0;
   display: flex;
   align-items: center;
   gap: 16px;
