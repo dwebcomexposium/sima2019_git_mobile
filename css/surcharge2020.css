@@ -12666,26 +12666,29 @@ html[lang="en"] .landing-anniversary {
 }
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(7) {
-    background-color: #F4F4F4;
+    background-color: #634E42;
 }
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(7) .lien1 {
   background-color: white;
-  color: #252525;
+  color: #634E42;
 }
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(7) .block-title a {
+	color: white;
+}
+
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(4) .block-title a {
 	color: #0B8E36;
 }
 
-.anniversary-grid .block[class*="centans"]:nth-of-type(3) .block-title a,
-.anniversary-grid .block[class*="centans"]:nth-of-type(7) .block-title a {
+.anniversary-grid .block[class*="centans"]:nth-of-type(3) .block-title a {
 	color: #634E42;
 }
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(3) p ,
-.anniversary-grid .block[class*="centans"]:nth-of-type(4) p ,
-.anniversary-grid .block[class*="centans"]:nth-of-type(7) p {
+.anniversary-grid .block[class*="centans"]:nth-of-type(4) p {
 	color: #252525;
 }
 
