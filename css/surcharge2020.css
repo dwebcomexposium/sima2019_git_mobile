@@ -12727,6 +12727,7 @@ html[lang="en"] .landing-anniversary {
   background: linear-gradient(270deg, #0B8E36 66.48%, #F39200 100%);
   position: relative;
   z-index: 1;
+  display: flex;
 }
 
 .site-banner {
@@ -12739,20 +12740,17 @@ html[lang="en"] .landing-anniversary {
 }
 
 .anniversary-baneer__container {
-  padding-top: 5rem;
+  padding: 5rem 2rem 2rem 2rem;
   max-width: 116rem;
   margin: 0 auto;
-  display: grid;
+  display: flex;
   row-gap: 2rem;
-  grid-template-areas:
-      'picto content'
-      'btn btn';
+  flex-direction: column;
+      margin: auto 0 0 0;
 }
 
 .anniversary-baneer__container > svg {
-  grid-area: picto;
-  width: 50px;
-  height: auto !important;
+  display: none;
 }
 
 .anniversary-baneer__content {
@@ -12760,7 +12758,6 @@ html[lang="en"] .landing-anniversary {
   display: flex;
   gap: 0.5rem;
   flex-direction: column;
-  margin: 0 auto 0 1.5rem;
 }
 
 .anniversary-baneer__container p {
@@ -12776,9 +12773,7 @@ html[lang="en"] .landing-anniversary {
 }
 
 .anniversary-baneer .btn {
-  grid-area: btn;
   height: fit-content;
-  margin: auto;
   padding: 0.5rem 1rem;
   font-size: 16px;
   line-height: 1;
