@@ -12542,9 +12542,8 @@ html[lang="en"] .landing-anniversary {
 
 .anniversary-grid__container {
   position: relative;
-	display: grid;
-	grid-template-columns: 100vw;
-	grid-template-rows: repeat(5, 38rem);
+	display: flex;
+  flex-direction: column;
 	max-width: calc(3 * 40rem);
 	margin: auto;
 	justify-content: center;
@@ -12565,6 +12564,8 @@ html[lang="en"] .landing-anniversary {
 .anniversary-grid__container .block {
   z-index: 1;
   margin: 0 !important;
+  width: 100vw;
+  height: 38rem;
 }
 
 .anniversary-grid__container .block .inside {
