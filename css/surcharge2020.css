@@ -12892,6 +12892,6 @@ header.scrollUp {
   display: none;
 }
 
-.anniversary-baneer-wrapper:not('.no-banner'):not('.scrollUp') ~ .wrapper {
+.anniversary-baneer-wrapper:not(.no-banner):not(.scrollUp) ~ .wrapper {
   margin-top: 27rem;
 }
