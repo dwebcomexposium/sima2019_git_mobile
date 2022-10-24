@@ -127,12 +127,6 @@ const getCookie = (cname) => {
             container.appendChild(subContainer)
             blocks.forEach((el, index) => {
               subContainer.appendChild(el)
-              const containsButton = el.querySelector('.lien1')
-              const link = el.querySelector(`.block-title a`)
-              const inside = document.querySelector(`.centans${index + 1} > .inside`)
-              inside.addEventListener('click', () => {
-                  containsButton ? containsButton.click() : link.click()
-              })
             })
           }
         }

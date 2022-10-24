@@ -12611,7 +12611,8 @@ html[lang="en"] .landing-anniversary {
   font-family: 'NeutrifStudio-bold';
 }
 
-.anniversary-grid .block[class*="centans"] .lien1 {
+.anniversary-grid .block[class*="centans"] .lien1,
+.anniversary-grid .block[class*="centans"] p a {
   padding: 2rem;
   width: fit-content;
   line-height: 1;
@@ -12634,6 +12635,16 @@ html[lang="en"] .landing-anniversary {
 	align-items: flex-end;
 }
 
+.anniversary-grid .block[class*="centans"]:nth-of-type(1) p a,
+.anniversary-grid .block[class*="centans"]:nth-of-type(1) .lien1,
+.anniversary-grid .block[class*="centans"]:nth-of-type(5) p a,
+.anniversary-grid .block[class*="centans"]:nth-of-type(5) .lien1,
+.anniversary-grid .block[class*="centans"]:nth-of-type(6) p a,
+.anniversary-grid .block[class*="centans"]:nth-of-type(6) .lien {
+  background-color: white;
+  color: #252525;
+}
+
 .anniversary-grid .block[class*="centans"]:nth-of-type(1)  .block-title a {
   font-size: 5rem;
 }
@@ -12646,17 +12657,18 @@ html[lang="en"] .landing-anniversary {
   font-size: 4rem;
 }
 
-.anniversary-grid .block[class*="centans"]:nth-of-type(2) .lien1 {
-  background-color: #0b8e36;
-  color: white;
+.anniversary-grid .block[class*="centans"]:nth-of-type(2) .lien1,
+.anniversary-grid .block[class*="centans"]:nth-of-type(2) p a {
+  background-color: white;
 }
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(3) {
     background-color: #F4F4F4;
 }
 
+.anniversary-grid .block[class*="centans"]:nth-of-type(3) p a,
 .anniversary-grid .block[class*="centans"]:nth-of-type(3) .lien1 {
-  background-color: #0b8e36;
+  background-color: #634E42;
   color: white;
 }
 
@@ -12664,13 +12676,10 @@ html[lang="en"] .landing-anniversary {
     background-color: white;
 }
 
+.anniversary-grid .block[class*="centans"]:nth-of-type(4) p a,
 .anniversary-grid .block[class*="centans"]:nth-of-type(4) .lien1 {
-  background-color: #0b8e36;
+  background-color: #0B8E36;
   color: white;
-}
-
-.anniversary-grid .block[class*="centans"]:nth-of-type(5) {
-
 }
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(6) {
@@ -12681,6 +12690,7 @@ html[lang="en"] .landing-anniversary {
     background-color: #634E42;
 }
 
+.anniversary-grid .block[class*="centans"]:nth-of-type(7) p a,
 .anniversary-grid .block[class*="centans"]:nth-of-type(7) .lien1 {
   background-color: white;
   color: #634E42;
