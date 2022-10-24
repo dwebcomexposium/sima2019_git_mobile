@@ -12753,6 +12753,10 @@ html[lang="en"] .landing-anniversary {
   display: flex;
 }
 
+.anniversary-baneer-wrapper {
+  transition: margin 1s cubic-bezier(.86,0,.07,1);
+}
+
 .site-banner {
   transition: transform 0.3s ease-in-out;
 }
