@@ -12478,6 +12478,8 @@ html[lang="en"] .landing-anniversary {
 	 font-size: 2rem;
 	 color: white;
 	 text-align: center;
+    hyphens: none;
+    word-break: keep-all;
 }
  .popup__text__title {
 	 font-size: 2.4rem;
