@@ -5577,6 +5577,10 @@ html[lang="en"] .landing-video-2 {
   display: none;
 }
 
+.actus .link-view-all {
+  font-weight: 800;
+}
+
 body.exposer,
 .content374293 {
   /*solution pour tous les agriculteurs */
