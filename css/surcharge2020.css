@@ -12905,3 +12905,308 @@ header.scrollUp {
 .anniversary-baneer-wrapper:not(.no-banner) ~ .wrapper {
   margin-top: 27rem;
 }
+
+.content905618 #zone1 {
+  height: 53.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content905618 #zone1 h1 {
+  color: white;
+  text-align: center;
+  font-size: 5.2rem;
+}
+
+.content905618 #zone1 .breadcrumb-nav {
+  padding-top: 0;
+}
+
+.content905618 #zone2 > .block {
+  margin-top: 16.8rem;
+}
+
+.content905618 #zone2 > .block h2 {
+  font-size: 6rem;
+  line-height: 1.2;
+  color: #252525;
+  text-align: center;
+}
+
+.content905618 #zone2 > .block .inside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content905618 #zone2 > .block .inside > p {
+  font-size: 2rem;
+  font-family: "NeutrifStudio-medium", Helvetica, Arial, sans-serif;
+  color: #636363;
+  text-align: center;
+  line-height: 1.2;
+  max-width: 100%;
+  position: relative;
+  margin-bottom: 8.6rem;
+}
+
+.content905618 #zone2 > .block .inside > p strong {
+  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
+  color: #252525;
+}
+
+.content905618 #zone2 > .block .inside > p::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -3.6rem;
+  width: 5rem;
+  height: 4px;
+  background-color: #0B8E36;
+  margin: auto;
+}
+
+
+.find-us__content {
+  width: 100%;
+  display: flex;
+  min-height: 35rem;
+}
+
+.find-us__left {
+  width: 36rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f39200;
+  padding: 3rem;
+}
+
+.find-us__left p{
+  color: white;
+  font-family: "NeutrifStudio-medium", Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.find-us__right {
+  height: auto;
+  width: 100%;
+  display: flex;
+  background-image: url("/theme/sima2019_git_desktop/images/find-us.jpg");
+  background-size: cover;
+}
+
+.find-us__left a {
+  background: white !important;
+  color: #f39200;
+  font-size: 1.6rem;
+  padding: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.find-us__left a:hover {
+  color: #f39200 !important;
+  transform: scale(1.02);
+}
+
+.content905618 .edito:nth-child(3) .inside {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    'title title title title'
+    'subtitle subtitle subtitle subtitle'
+    'cta1 cta2 cta3 cta4';
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content905618 .edito:nth-child(3) .inside > h2 {
+  grid-area: title;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(2) {
+  grid-area: subtitle;
+  margin: 1.5rem auto 8.6rem auto !important;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(3) {
+  grid-area: cta1;
+  background-color: #0B8E36;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(3) a {
+  color: white;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(4) {
+  grid-area: cta2;
+  background-color: #F39200;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(4) a {
+  color: white;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(5) {
+  grid-area: cta3;
+  background-color: #f4f4f4;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(5) a {
+  color: #252525;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(6) {
+  grid-area: cta4;
+  background-color: #634e42;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(6) a {
+  color: white;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(3)::after,
+.content905618 .edito:nth-child(3) .inside > p:nth-child(4)::after,
+.content905618 .edito:nth-child(3) .inside > p:nth-child(5)::after,
+.content905618 .edito:nth-child(3) .inside > p:nth-child(6)::after {
+  content: none !important;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(3)::before,
+.content905618 .edito:nth-child(3) .inside > p:nth-child(4)::before,
+.content905618 .edito:nth-child(3) .inside > p:nth-child(5)::before,
+.content905618 .edito:nth-child(3) .inside > p:nth-child(6)::before {
+  content: "" !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0;
+  transform: translateX(50%);
+  height: 80%;
+  width: 20rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(3)::before {
+  background-image: url("/theme/sima2019_git_desktop/images/train-f-1.svg");
+  height: 90%;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(4)::before {
+  background-image: url("/theme/sima2019_git_desktop/images/plane-f-1.svg");
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(5)::before {
+  background-image: url("/theme/sima2019_git_desktop/images/car-f-1.svg");
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(6)::before {
+  background-image: url("/theme/sima2019_git_desktop/images/bus-f.svg");
+  opacity: 0.4;
+  filter: invert(1);
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(3),
+.content905618 .edito:nth-child(3) .inside > p:nth-child(4),
+.content905618 .edito:nth-child(3) .inside > p:nth-child(5),
+.content905618 .edito:nth-child(3) .inside > p:nth-child(6) {
+  padding: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  min-height: 18rem;
+  position: relative;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(3) a,
+.content905618 .edito:nth-child(3) .inside > p:nth-child(4) a,
+.content905618 .edito:nth-child(3) .inside > p:nth-child(5) a, 
+.content905618 .edito:nth-child(3) .inside > p:nth-child(6) a {
+  text-transform: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  z-index: 10;
+  text-align: start;
+}
+
+.content905618 .focusedition {
+  width: 70%;
+  background: none;
+  margin: 13rem 0 13rem 0 !important;
+  padding: 5rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 0;
+}
+
+.content905618 .focusedition .txtright {
+  margin: 5rem 0 0 0;
+}
+
+.content905618 .focusedition .txtright::before {
+  content: none !important;
+}
+
+.content905618 .focusedition .txtright:hover .btn-primary {
+  background-color: #0b8e36 !important;
+  color: white !important;
+} 
+
+.content905618 .focusedition .af-title {
+  font-size: 4rem;
+  font-family: 'NeutrifStudio-bold';
+  color: #252525;
+}
+
+.content905618 .focusedition .af-title + p:not(:empty) {
+  line-height: 1;
+  font-family: 'NeutrifStudio-medium';
+  color: #252525;
+  font-size: 2.5rem;
+  text-transform: none;
+  margin-bottom: 4rem;
+}
+
+.content905618 .focusedition::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  margin: auto;
+  height: calc(100% + 14rem);
+  width: calc(100vw + 7rem);
+  transform: translateX(-36%) translateY(-50%);
+  background-image: url('https://www.simaonline.com/theme/sima2019_git_desktop/images/100year-right.webp');
+  background-size: cover;
+  background-position: center left;
+  z-index: -1;
+}
+
+.content905618 .focusedition::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  background: white;
+}
+
+.content905618 .focusedition p {
+  color: #636363;
+  font-family: 'NeutrifStudio-medium';
+  font-size: 2rem;
+  text-transform: none;
+  line-height: 1.5;
+}
