@@ -12956,7 +12956,7 @@ header.scrollUp {
   line-height: 1.2;
   max-width: 100%;
   position: relative;
-  margin-bottom: 8.6rem;
+  margin-bottom: 6.6rem;
 }
 
 .content905618 #zone2 > .block .inside > p strong {
@@ -12998,7 +12998,8 @@ header.scrollUp {
   font-family: "NeutrifStudio-medium", Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   line-height: 1.4;
-  margin: 0;
+  margin: 0 0 2rem 0 !important;
+  text-align: center;
 }
 
 .find-us__right {
@@ -13149,10 +13150,10 @@ header.scrollUp {
 }
 
 .content905618 .focusedition {
-  width: 70%;
+  width: 90%;
   background: none;
-  margin: 13rem 0 13rem 0 !important;
-  padding: 5rem;
+  margin: 13rem auto 6rem auto !important;
+  padding: 3rem !important;
   justify-content: flex-start;
   align-items: flex-start;
   min-height: 0;
@@ -13175,11 +13176,12 @@ header.scrollUp {
   font-size: 4rem;
   font-family: 'NeutrifStudio-bold';
   color: #252525;
+  line-height: 1.2;
 }
 
 .content905618 .focusedition .af-title + p:not(:empty) {
   line-height: 1;
-  font-family: 'NeutrifStudio-medium';
+  font-family: 'NeutrifStudio-regular';
   color: #252525;
   font-size: 2.5rem;
   text-transform: none;
@@ -13233,9 +13235,10 @@ header.scrollUp {
   width: 50%;
   display: grid;
   grid-template-areas:
-    'day month'
-    'day year';
-  justify-content: flex-start;
+    'day'
+    'month'
+    'year';
+  justify-content: center;
   column-gap: 1rem;
   align-items: center;
 }
@@ -13257,15 +13260,17 @@ header.scrollUp {
 .salon-dates .salon-dates__day {
   grid-area: day;
   padding-top: 0.5rem;
-  font-size: 10rem;
+  font-size: 6rem;
   line-height: 1;
+   text-align: center;
 }
 
 .salon-dates .salon-dates__month {
   opacity: 0.5;
   grid-area: month;
   margin: auto 0 0 0;
-  font-size: 5rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .salon-dates .salon-dates__year {
@@ -13273,6 +13278,7 @@ header.scrollUp {
   grid-area: year;
   margin: 0 0 auto 0;
   font-size: 4rem;
+  text-align: center;
 }
 
 .salon-dates .salon-dates__start svg {
@@ -13289,7 +13295,6 @@ header.scrollUp {
 }
 
 .salon-dates .salon-dates__end {
-  padding-left: 6rem;
   background-color: #0b8e36;
   color: white;
 }
