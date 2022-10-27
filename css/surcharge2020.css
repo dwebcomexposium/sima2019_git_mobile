@@ -13639,7 +13639,7 @@ header.scrollUp {
 
 .content905639 .edito:nth-child(1n + 2) .inside p:last-child {
   margin-top: 4rem;
-  display: inline-block;
+  display: flex;
 }
 
 .content905639 .edito:nth-child(1n + 2) .inside p:last-child a {
@@ -13653,6 +13653,6 @@ header.scrollUp {
   background-color: #252525;
 }
 
-.content905639 .edito:nth-child(1n + 2):last-child {
-  margin-bottom: 10rem;
+.content905639 .edito:nth-child(1n + 2):not(:last-child) {
+  margin-bottom: 8rem !important;
 }
