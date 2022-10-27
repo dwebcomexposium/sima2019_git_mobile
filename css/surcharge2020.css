@@ -13016,11 +13016,12 @@ header.scrollUp {
 
 .content905618 .edito:nth-child(3) .inside {
   display: grid !important;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
-    'title title title title'
-    'subtitle subtitle subtitle subtitle'
-    'cta1 cta2 cta3 cta4';
+      'title title'
+      'subtitle subtitle'
+      'cta1 cta2'
+      'cta3 cta4';
   width: 100%;
   margin: auto;
   overflow: hidden;
@@ -13118,6 +13119,7 @@ header.scrollUp {
 .content905618 .edito:nth-child(3) .inside > p:nth-child(4),
 .content905618 .edito:nth-child(3) .inside > p:nth-child(5),
 .content905618 .edito:nth-child(3) .inside > p:nth-child(6) {
+  margin: 0 !important;
   padding: 2rem;
   display: flex;
   justify-content: flex-start;
