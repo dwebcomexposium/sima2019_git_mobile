@@ -12924,12 +12924,19 @@ header.scrollUp {
   padding-top: 0;
 }
 
+.content905618 #zone2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+
 .content905618 #zone2 > .block {
   margin-top: 16.8rem;
+  padding: 0 3rem;
 }
 
 .content905618 #zone2 > .block h2 {
-  font-size: 6rem;
+  font-size: 3rem;
   line-height: 1.2;
   color: #252525;
   text-align: center;
@@ -12973,11 +12980,12 @@ header.scrollUp {
 .find-us__content {
   width: 100%;
   display: flex;
+  flex-direction: column;
   min-height: 35rem;
 }
 
 .find-us__left {
-  width: 36rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -12994,7 +13002,7 @@ header.scrollUp {
 }
 
 .find-us__right {
-  height: auto;
+  height: 30rem;
   width: 100%;
   display: flex;
   background-image: url("/theme/sima2019_git_desktop/images/find-us.jpg");
