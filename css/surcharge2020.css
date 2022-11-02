@@ -12598,6 +12598,50 @@ html[lang="en"] .landing-anniversary {
   padding: 3rem;
 }
 
+.anniversary-grid .block[class*="centans"]:nth-of-type(3) .at-content,
+.anniversary-grid .block[class*="centans"]:nth-of-type(4) .at-content,
+.anniversary-grid .block[class*="centans"]:nth-of-type(5) .at-content,
+.anniversary-grid .block[class*="centans"]:nth-of-type(6) .at-content,
+.anniversary-grid .block[class*="centans"]:nth-of-type(7) .at-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(3) .at-content .article-intro,
+.anniversary-grid .block[class*="centans"]:nth-of-type(4) .at-content .article-intro,
+.anniversary-grid .block[class*="centans"]:nth-of-type(5) .at-content .article-intro,
+.anniversary-grid .block[class*="centans"]:nth-of-type(6) .at-content .article-intro,
+.anniversary-grid .block[class*="centans"]:nth-of-type(7) .at-content .article-intro,
+.anniversary-grid .block[class*="centans"]:nth-of-type(3) .at-content .article-intro .ezxmltext-field,
+.anniversary-grid .block[class*="centans"]:nth-of-type(4) .at-content .article-intro .ezxmltext-field,
+.anniversary-grid .block[class*="centans"]:nth-of-type(5) .at-content .article-intro .ezxmltext-field,
+.anniversary-grid .block[class*="centans"]:nth-of-type(6) .at-content .article-intro .ezxmltext-field,
+.anniversary-grid .block[class*="centans"]:nth-of-type(7) .at-content .article-intro .ezxmltext-field {
+  height: 100%;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(3) .at-content .article-intro .ezxmltext-field,
+.anniversary-grid .block[class*="centans"]:nth-of-type(4) .at-content .article-intro .ezxmltext-field,
+.anniversary-grid .block[class*="centans"]:nth-of-type(5) .at-content .article-intro .ezxmltext-field,
+.anniversary-grid .block[class*="centans"]:nth-of-type(6) .at-content .article-intro .ezxmltext-field,
+.anniversary-grid .block[class*="centans"]:nth-of-type(7) .at-content .article-intro .ezxmltext-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(3) .at-content .article-intro .ezxmltext-field p:last-of-type,
+.anniversary-grid .block[class*="centans"]:nth-of-type(4) .at-content .article-intro .ezxmltext-field p:last-of-type,
+.anniversary-grid .block[class*="centans"]:nth-of-type(5) .at-content .article-intro .ezxmltext-field p:last-of-type,
+.anniversary-grid .block[class*="centans"]:nth-of-type(6) .at-content .article-intro .ezxmltext-field p:last-of-type,
+.anniversary-grid .block[class*="centans"]:nth-of-type(7) .at-content .article-intro .ezxmltext-field p:last-of-type {
+  margin: auto 0 0 0;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(7) .at-content {
+  max-height: 38rem;
+}
+
 .anniversary-grid .block[class*="centans"] p {
   font-size: 2rem;
   line-height: 1.5;
