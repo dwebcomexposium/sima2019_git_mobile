@@ -12518,6 +12518,7 @@ html[lang="en"] .landing-anniversary {
   text-transform: uppercase;
   color: #252525;
   font-family: 'neutrifstudio-bold';
+  hyphens: none;
 }
 
 .front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) .inside > p {
