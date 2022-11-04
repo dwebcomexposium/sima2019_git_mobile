@@ -13704,7 +13704,8 @@ header.scrollUp {
   margin-bottom: 8rem !important;
 }
 
-.body-mobile.content905639 .edito:nth-child(1)::before {
+.body-mobile.content905639 .edito:nth-child(1)::before,
+.body-mobile.content905618 #zone1::before {
   content: "";
   display: block;
   background-color: black;
@@ -13718,4 +13719,8 @@ header.scrollUp {
   background-size: cover;
   background-position: center;
   z-index: -1;
+}
+
+.body-mobile.content905618 #zone1 {
+  position: relative;
 }
