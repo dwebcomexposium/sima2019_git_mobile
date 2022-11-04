@@ -13708,13 +13708,14 @@ header.scrollUp {
   content: "";
   display: block;
   background-color: black;
-  width: calc(100% - 4rem);
-  margin: 0 2rem;
+  width: 100vw;
+  margin: auto;
   position: absolute;
   left: 0;
-  height: 53.5rem;
+  right: 0;
+  height: 100%;
   background-image: url("/theme/sima2019_git_desktop/images/bg-general.jpg");
   background-size: cover;
   background-position: center;
-  z-index: 1;
+  z-index: -1;
 }
