@@ -13703,3 +13703,19 @@ header.scrollUp {
 .content905639 .edito:nth-child(1n + 2):not(:last-child) {
   margin-bottom: 8rem !important;
 }
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list)
+  #main::before {
+  content: "";
+  display: block;
+  background-color: black;
+  width: calc(100% - 4rem);
+  margin: 0 2rem;
+  position: absolute;
+  left: 0;
+  height: 53.5rem;
+  background-image: url("/theme/sima2019_git_desktop/images/bg-general.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
