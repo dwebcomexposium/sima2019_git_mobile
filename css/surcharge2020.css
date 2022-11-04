@@ -13715,10 +13715,17 @@ header.scrollUp {
   left: 0;
   right: 0;
   height: 100%;
-  background-image: url("/theme/sima2019_git_desktop/images/bg-general.jpg");
   background-size: cover;
   background-position: center;
   z-index: -1;
+}
+
+.body-mobile.content905639 .edito:nth-child(1)::before {
+  background-image: url("/theme/sima2019_git_desktop/images/bg-general.jpg");
+}
+
+.body-mobile.content905618 #zone1::before {
+  background-image: url(/theme/sima2019_git_desktop/images/bg-14.jpg)!important;
 }
 
 .body-mobile.content905618 #zone1 {
