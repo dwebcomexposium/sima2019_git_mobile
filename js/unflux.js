@@ -143,6 +143,10 @@ const getCookie = (cname) => {
                     popUp.style.display = 'none';
                     HTMLElement.classList.remove('noscroll')
                 })
+                const seeMore = popUp.querySelector('.btn')
+                  seeMore.addEventListener('click', () => {
+                    setCookie('popup', 'false', 10)
+                  })
               }
             }
         },
@@ -165,6 +169,8 @@ const getCookie = (cname) => {
                 header.classList.add('no-banner')
                 document.querySelector('.site-wrapper').classList.add('no-banner')
             })
+
+          
         },
 
         anniversaryGridBlock() {
