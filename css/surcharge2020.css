@@ -13704,8 +13704,7 @@ header.scrollUp {
   margin-bottom: 8rem !important;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list)
-  #main::before {
+.body-mobile.content905639 .edito:nth-child(1)::before {
   content: "";
   display: block;
   background-color: black;
