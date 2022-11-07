@@ -118,7 +118,9 @@ const getCookie = (cname) => {
                     title.innerHTML = `<span>#${i + 1}</span>` + title.innerHTML;
 
                     const img = el.querySelector('.at-illust');
-                    img.outerHTML = `<div class="img-with-cube"><div class="img-with-cube__cube"></div>${img.outerHTML}</div>`;
+                    if(img) {
+                        img.outerHTML = `<div class="img-with-cube"><div class="img-with-cube__cube"></div>${img.outerHTML}</div>`;
+                    }
 
                     el.querySelector('.inside').insertAdjacentHTML('beforeend', '<div class="edito-content"></div>');
 
