@@ -13691,7 +13691,7 @@ header.scrollUp {
   display: flex;
 }
 
-.content905639 .edito:nth-child(1n + 2) .inside p:last-child a {
+/* .content905639 .edito:nth-child(1n + 2) .inside p:last-child a {
   padding: 1.5rem 3rem;
   background: #0b8e36;
   color: white;
@@ -13700,7 +13700,7 @@ header.scrollUp {
 
 .content905639 .edito:nth-child(1n + 2) .inside p:last-child a:hover {
   background-color: #252525;
-}
+} */
 
 .content905639 .edito:nth-child(1n + 2):not(:last-child) {
   margin-bottom: 8rem !important;
