@@ -13071,13 +13071,14 @@ header.scrollUp {
 }
 
 .content905618 .edito:nth-child(3) .inside {
-  display: grid !important;
-  grid-template-columns: repeat(2, 1fr);
+  display: grid!important;
+  grid-template-columns: repeat(1,1fr);
   grid-template-areas:
-      'title title'
-      'subtitle subtitle'
-      'cta1 cta2'
-      'cta3 cta4';
+        'title'
+        'subtitle'
+        'cta1'
+        'cta2'
+        'cta3';
   width: 100%;
   margin: auto;
   overflow: hidden;
