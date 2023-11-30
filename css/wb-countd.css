@@ -11,5 +11,44 @@
 
 .landing-video-2 .video-wrap .play-button { width: 50px; height: 50px; border-radius: 50rem; }
 .landing-video-2 .video-wrap .play-button p { font-size: 12px;  position: absolute; }
-.landing-video-2 .video-wrap .play-button .arrow { border-top: .7rem solid transparent;
-    border-bottom: .7rem solid transparent;  border-left: 1rem solid #fff; margin-right: -.4rem; }
+.landing-video-2 .video-wrap .play-button .arrow { border-top: .7rem solid transparent; border-bottom: .7rem solid transparent;  border-left: 1rem solid #fff; margin-right: -.4rem; }
+
+/*Evolutions*/
+
+.solutions-agri {padding: 0!important; width: 100%; max-width: 116rem; margin: 0 auto; }
+.solutions-agri .container { display: flex; flex-wrap: wrap; margin: 20px auto;   }
+.solutions-agri .container .column {flex: 0 0 25%; margin: 0; padding: 20px;  background-color: #FFFFF6; border: 1px solid #dff0e0; box-sizing: border-box; margin: -1px -1px 0 0; }
+.solutions-agri p.new { text-transform: uppercase; font-size: 13px; color: #0b8e36;  }
+.solutions-agri .inside h2 { max-width: 50%; padding-bottom: 15px; font-size: 40px; line-height: 1; margin-top: 60px!important; color: #634e42; }
+.solutions-agri h3 { font-size: 28px; margin-top: 0; color: #0b8e36; line-height: 1; }
+
+.solutions-agri .column svg { margin-bottom: 17px}
+
+.solutions-agri .container_3cols { display: flex; flex-wrap: wrap; margin: 20px auto; background-color: #FFFFF6;  }
+
+.solutions-agri .container_3cols .column { flex: 0 0 33.3333%; box-sizing: border-box;  border: 1px solid #dff0e0; padding: 20px; margin: -1px -1px 0 0; }
+
+
+.solutions-agri .container_2cols { display: flex; flex-wrap: wrap; margin: 60px auto; justify-content: space-between; }
+.solutions-agri .container_2cols h2 {max-width: 100%; }
+
+.solutions-agri .container_2cols .column { margin: 0; width: 47%; }
+
+
+/*Exposer*/
+
+.exposer .solutions-agri h2 {max-width: 100%; text-align: center; }
+.exposer .solutions-agri {margin-bottom: 90px; }
+
+
+.list-picto.list-horizontal::before { display: none; }
+
+
+
+@media (max-width: 767px) { 
+ .solutions-agri .container .column, .solutions-agri .container_3cols .column, .solutions-agri .container_2cols .column  { flex: 0 0 100%; }
+.solutions-agri .inside h2 { max-width: 100%;  }
+
+}
+
+.solution-agriculteur, .front .list-vertical { display: none; }
